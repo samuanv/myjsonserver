@@ -1,0 +1,279 @@
+{
+  "vuelo": [
+    {
+      "id": 1,
+      "nombre": "Vuelo VLC - BCN",
+      "estado": "listo",
+      "numAsientos": 100,
+      "fechaSalida": "11-01-2018",
+      "fechaLlegada": "11-01-2018",
+      "horaSalida": "06:00",
+      "horaLlegada": "08:00",
+      "precioBaseVip": 500,
+      "precioBaseTurista": 300,
+      "trayecto": {
+        "id": 1,
+        "origen": "Valencia",
+        "destino": "Barcelona"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Oferta BBO - SVL",
+      "estado": "retrasado",
+      "numAsientos": 79,
+      "fechaSalida": "12-01-2018",
+      "fechaLlegada": "12-01-2018",
+      "horaSalida": "13:00",
+      "horaLlegada": "15:00",
+      "precioBaseVip": 375,
+      "precioBaseTurista": 180,
+      "trayecto": {
+        "id": 1,
+        "origen": "Bilbao",
+        "destino": "Sevilla"
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Más vendido este año BCN - MDR ",
+      "estado": "listo",
+      "numAsientos": 120,
+      "fechaSalida": "12-01-2018",
+      "fechaLlegada": "12-01-2018",
+      "horaSalida": "17:00",
+      "horaLlegada": "18:00",
+      "precioBaseVip": 120,
+      "precioBaseTurista": 70,
+      "trayecto": {
+        "id": 1,
+        "origen": "Barcelona",
+        "destino": "Madrid"
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Alicante, en verano y en invierno",
+      "estado": "en_hora",
+      "numAsientos": 150,
+      "fechaSalida": "15-01-2018",
+      "fechaLlegada": "15-01-2018",
+      "horaSalida": "14:00",
+      "horaLlegada": "14:45",
+      "precioBaseVip": 170,
+      "precioBaseTurista": 120,
+      "trayecto": {
+        "id": 1,
+        "origen": "Madrid",
+        "destino": "Alicante"
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Tarragona, segundo destino catalán",
+      "estado": "en_hora",
+      "numAsientos": 222,
+      "fechaSalida": "16-01-2018",
+      "fechaLlegada": "16-01-2018",
+      "horaSalida": "04:00",
+      "horaLlegada": "05:00",
+      "precioBaseVip": 500,
+      "precioBaseTurista": 300,
+      "trayecto": {
+        "id": 1,
+        "origen": "Vigo",
+        "destino": "Tarragona"
+      }
+    }
+  ],
+  "trayecto": [
+    {
+      "id": 1,
+      "origen": "Barcelona",
+      "destino": "Barcelona"
+    },
+    {
+      "id": 1,
+      "origen": "Madrid",
+      "destino": "Valencia"
+    },
+    {
+      "id": 2,
+      "origen": "Madrid",
+      "destino": "Valencia"
+    },
+    {
+      "id": 3,
+      "origen": "Madrid",
+      "destino": "Valencia"
+    },
+    {
+      "id": 4,
+      "origen": "Madrid",
+      "destino": "Valencia"
+    },
+    {
+      "id": 5,
+      "origen": "Madrid",
+      "destino": "Valencia"
+    },
+    {
+      "id": 6,
+      "origen": "Valencia",
+      "destino": "Madrid"
+    },
+    {
+      "id": 7,
+      "origen": "Barcelona",
+      "destino": "Madrid"
+    },
+    {
+      "id": 8,
+      "origen": "Barcelona",
+      "destino": "Barcelona"
+    },
+    {
+      "id": 9,
+      "origen": "Madrid",
+      "destino": "Barcelona"
+    },
+    {
+      "id": 10,
+      "origen": "Madrid",
+      "destino": "Bilbao"
+    },
+    {
+      "id": 11,
+      "origen": "Madrid",
+      "destino": "Alicante"
+    },
+    {
+      "id": 12,
+      "origen": "Madrid",
+      "destino": "Valencia"
+    },
+    {
+      "id": 13,
+      "origen": "Madrid",
+      "destino": "Bilbao"
+    },
+    {
+      "id": 14,
+      "origen": "Madrid",
+      "destino": "Barcelona"
+    },
+    {
+      "id": 15,
+      "origen": "Madrid",
+      "destino": "Madrid"
+    },
+    {
+      "id": 16,
+      "origen": "Valencia",
+      "destino": "Bilbao"
+    },
+    {
+      "id": 17,
+      "origen": "Madrid",
+      "destino": "Alicante"
+    },
+    {
+      "id": 18,
+      "origen": "Tarragona",
+      "destino": "Tarragona"
+    },
+    {
+      "id": 19,
+      "origen": "Alicante",
+      "destino": "Murcia"
+    },
+    {
+      "id": 20,
+      "origen": "Madrid",
+      "destino": "Murcia"
+    }
+  ],
+  "billete": [
+    {
+      "id": 1,
+      "precio": "300",
+      "vuelo": {
+        "id": 1,
+        "nombre": "Vuelo VLC - BCN",
+        "estado": "listo",
+        "numAsientos": 100,
+        "fechaSalida": "11-01-2018",
+        "fechaLlegada": "11-01-2018",
+        "horaSalida": "06:00",
+        "horaLlegada": "08:00",
+        "precioBaseVip": 500,
+        "precioBaseTurista": 300,
+        "trayecto": {
+          "id": 1,
+          "origen": "Valencia",
+          "destino": "Barcelona"
+        }
+      },
+      "pasajero": {
+        "email": "admin@admin",
+        "nombre": "Samuel Andreo",
+        "dni": "1234345",
+        "fechaNac": "1995-11-16"
+      }
+    },
+    {
+      "id": 1,
+      "precio": "300",
+      "vuelo": {
+        "id": 1,
+        "nombre": "Vuelo VLC - BCN",
+        "estado": "listo",
+        "numAsientos": 100,
+        "fechaSalida": "11-01-2018",
+        "fechaLlegada": "11-01-2018",
+        "horaSalida": "06:00",
+        "horaLlegada": "08:00",
+        "precioBaseVip": 500,
+        "precioBaseTurista": 300,
+        "trayecto": {
+          "id": 1,
+          "origen": "Valencia",
+          "destino": "Barcelona"
+        }
+      },
+      "pasajero": {
+        "email": "employee@employee",
+        "nombre": "Samuel Andreo",
+        "dni": "1234345",
+        "fechaNac": "1995-11-16"
+      }
+    },
+    {
+      "id": 2,
+      "precio": "500",
+      "vuelo": {
+        "id": 1,
+        "nombre": "Vuelo VLC - BCN",
+        "estado": "listo",
+        "numAsientos": 100,
+        "fechaSalida": "11-01-2018",
+        "fechaLlegada": "11-01-2018",
+        "horaSalida": "06:00",
+        "horaLlegada": "08:00",
+        "precioBaseVip": 500,
+        "precioBaseTurista": 300,
+        "trayecto": {
+          "id": 1,
+          "origen": "Valencia",
+          "destino": "Barcelona"
+        }
+      },
+      "pasajero": {
+        "email": "user@user",
+        "nombre": "asdfasdf",
+        "dni": "123345",
+        "fechaNac": "1998-12-12"
+      }
+    }
+  ]
+}
